@@ -23,6 +23,7 @@ public class HotelReservationSystemMain {
         Hotel hotel3 = new Hotel("RidgeWood",220, 150);
         hotelReservationSystem.addHotel(hotel3);
     }
+
     public boolean addHotel(Hotel hotel) {
 
         return hotelList.add(hotel);
